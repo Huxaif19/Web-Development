@@ -1,0 +1,50 @@
+body{
+  padding-top: 40px;
+}
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    /* row-gap: 2px; */
+  }
+
+
+   .vedio-box{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+   }
+   .main-img{
+    height: 250px;
+    width: 100%;
+    border-radius: 2px;
+   }
+   .box-details{
+    display: grid;
+    grid-template-columns: 10% 70%;
+   }
+   .about{
+    margin-left: 3%;
+   }
+   .author-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 22px;
+    margin-top: 25%;
+   }
+   .about-author{
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .author-name, .vedio-details{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: rgb(96, 96, 96);
+   }

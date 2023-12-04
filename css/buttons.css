@@ -1,0 +1,90 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+#subscribe{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding:10px 16px 10px 16px ;
+    border-radius: 2px;
+    cursor: pointer;
+    margin:10px 8px ; 
+    transition: opacity 1s;
+    vertical-align: top;
+}
+
+#subscribe:hover{
+    opacity: 0.35;
+}
+
+#subscribe:active{
+    opacity: 0.2;
+}
+
+#join{
+    background-color: white;
+    color: rgb(68, 100, 175);
+    padding:9px 16px 9px 16px ;
+    border: 1px solid aqua;
+    width: 90px;
+    cursor:pointer;
+    margin:10px 8px ; 
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+
+}
+#join:hover{
+    background-color: rgb(68, 100, 175);
+    color: white;
+}
+#join:active{
+    opacity: 0.3;
+}
+#tweet{
+    background-color: rgb(21, 138, 181);
+    color:white;
+    border:none;
+    width: 90px;
+    padding:9px 16px 9px 16px ;
+    margin:10px 8px;
+    cursor:pointer;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+    vertical-align: top;
+
+}
+#tweet:hover{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.8) ;
+}
+.vtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height:50px;
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.vstats{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(96,96,96); 
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+.vauthor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(96,96,96); 
+    padding: 5px 5px;
+    margin: 10px 10px;
+}

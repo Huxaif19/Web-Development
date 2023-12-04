@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions in the css</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 3000px;
+            
+        }
+        .header{
+            position: fixed;
+            background-color: black;
+            height: 40px; 
+            width: 100%;
+            color: white; 
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+
+        .sidebar{
+            width: 50px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            top:45px;
+            background-color: green;
+            width: 78px;
+        }
+        .div1{
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            position:static;
+        }
+        .div2{
+            background-color: lightgreen;
+            height: 200px;
+            width: 200px;
+            position:static;
+        }
+        body{
+            padding: 80px;
+        }
+        .position-absolute{
+            position: absolute;
+            background-color: red;
+            color: white;
+            left: 10px;
+            top:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="sidebar">sidebar</div>
+    <div class="position-absolute">absolute</div>
+    <div class="div1">div1</div>
+    <div class="div2">div2</div>
+</body>
+</html>

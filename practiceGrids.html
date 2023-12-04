@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <style>
+        div{
+            color: white;
+            column-gap: 20px;
+            row-gap: 40px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 200px;
+    ">
+        <div style="background-color: lightblue;"> div1</div>
+        <div style="background-color: lightsalmon;">div2</div>
+        <div style="background-color: rgb(66, 25, 9);">div3</div>
+        <div style="background-color: lightsalmon;">div2</div>
+        <div style="background-color: lightblue;"> div3</div>
+        <div style="background-color: rgb(246, 164, 41);"> div1</div>
+
+    </div>
+</body>
+</html>

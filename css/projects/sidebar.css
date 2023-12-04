@@ -1,0 +1,42 @@
+.sidebar{
+    width: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:60px;
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 10px;
+    border-radius: 2px;
+}
+.sidebar-link{
+    height: 70px;
+    border: 2px solid red;
+
+}
+.sidebar-link :hover{
+    opacity: 0.3;
+}
+.you:hover{
+    opacity: 0.3;
+}
+.subs{
+    margin-left: 7px;
+}
+.home-img, .short-img,.subs{
+    margin-top : 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+}
+h6{
+    text-align: center;
+}
+.you{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid red;
+
+}
