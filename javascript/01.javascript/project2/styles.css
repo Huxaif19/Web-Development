@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color-hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 5px;
+}
+
+
+
+.color-red{
+    background-color: rgb(189, 29, 29);
+    /* height: 2rem; */
+    width: 4rem;
+    text-align: center;
+    height: 0.4rem;
+    border-radius: 2rem;
+
+
+}
+.color-violet{
+    background-color: violet;
+    width: 4rem;
+    text-align: center;
+    height: 0.4rem;
+    border-radius: 2rem;
+}
+.color-cyan{
+    background-color:cyan;
+    width: 4rem;
+    text-align: center;
+    height: 0.4rem;
+    border-radius: 2rem;
+}
+.color-orange{
+    background-color:orange;
+    width: 4rem;
+    text-align: center;
+    height: 0.4rem;
+    border-radius: 2rem;
+}
+.color-pink{
+    background-color: pink;
+    width: 4rem;
+    text-align: center;
+    height: 0.4rem;
+    border-radius: 2rem;
+}
+.center{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px ;
+}
