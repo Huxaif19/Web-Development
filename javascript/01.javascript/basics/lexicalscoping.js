@@ -13,7 +13,7 @@
 // name()
 
 
-
+// closure //
 function doAdd(x) 
 
 {
