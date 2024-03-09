@@ -32,3 +32,4 @@ maps.forEach((v,k) => {
 
 maps.delete(2)   // key with the value 2 
 console.log(maps)
+console.log(maps)
