@@ -3,17 +3,24 @@ import useTheme from "../Context/Theme";
 
 
 function ThemeButton () {
-    const {themeMode, lightTheme, darkTheme} = useTheme();
+    const {themeMode, lightDarkTheme} = useTheme();
     const onChangeButton = (event)=>{
         const darkModeStatus = event.currentTarget.checked;
-        if (darkModeStatus) {
-            darkTheme()
-        }
-        else {
-            lightTheme()
-        }
 
+        if (darkModeStatus) {
+            // If checkbox is checked, switch to dark mode if not already in dark mode
+            if (themeMode !== "dark") {
+                lightDarkTheme();
+            }
+        } else {
+            // If checkbox is unchecked, switch to light mode if not already in light mode
+            if (themeMode !== "light") {
+                lightDarkTheme();
+            }
+        }
     }
+
+
     return(
         <label className="relative inline-flex items-center cursor-pointer">
             <input
