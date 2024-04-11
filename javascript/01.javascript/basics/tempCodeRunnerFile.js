@@ -1,10 +1,11 @@
+promises = new Promise((resolve, reject)=>{
+    setTimeout(()=>{
+        console.log('task is complete'); 
+        resolve();
+    }, 3000)
+})
 
-// function maxArgs2 (...args){
-//     let max = 0; 
-//     for (const arg of args) {
-//         if (arg > max)
-//         max = arg
-//     }
-//     return max
-// }
-// console.log(maxArgs2(23,3,4,3,33))
+
+promises.then(()=>{
+    console.log("promise consumed")
+})
