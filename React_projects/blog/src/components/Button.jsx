@@ -1,15 +1,15 @@
 import React from 'react'
+
 function Button({
-    children , 
+    children, 
     type = 'button', 
-    bgColor = 'bg-blue-400', 
+    bgColor = 'bg-blue-600', 
     textColor = 'text-white', 
     className = '', 
-    route = '/',
     ...props
 }) {
     return (
-        <button className={`px-4 py-2 rounded-lg ${className} ${bgColor} ${textColor}`} {...props} >
+        <button className={`px-4 py-2 rounded-lg ${bgColor} ${textColor} ${className}`} {...props}>
             {children}
         </button>
     )
