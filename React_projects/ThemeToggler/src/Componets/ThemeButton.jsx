@@ -6,6 +6,7 @@ function ThemeButton () {
     const {themeMode, lightDarkTheme} = useTheme();
     const onChangeButton = (event)=>{
         const darkModeStatus = event.currentTarget.checked;
+        
 
         if (darkModeStatus) {
             // If checkbox is checked, switch to dark mode if not already in dark mode
